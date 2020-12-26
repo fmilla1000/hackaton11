@@ -1,0 +1,67 @@
+/*GLOBALS*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/*CARD*/
+
+body {
+    position: relative;
+    width: 400px;
+    margin: 5% auto;
+    padding: 20px;
+    border: 12px solid grey;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #b3b3b3;
+    text-align: center;
+    font-size: 15px;
+    font-family: arial;
+}
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+    padding: 20px;
+    font-family: Lobster-Regular;
+    letter-spacing: 4px;
+}
+
+p {
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+li {
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+a {
+    border-bottom: 1px solid;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+}
+
+a:hover {
+    background: rgba(white, 1);
+    color: #b3b3b3;
+}

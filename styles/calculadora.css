@@ -4,17 +4,16 @@ body {
     font-family: sans-serif;
 }
 
-.calculator {
+.calculadora {
     padding: 30px;
     box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
 }
 
-input {
-    width: 100%;
+.panel {
     border: 1px solid #ddd;
-    border-radius: 1px;
-    height: 75px;
+    height: 30px;
     text-align: right;
+    padding: 25px;
     font-size: 25px;
 }
 
@@ -22,19 +21,16 @@ button {
     font-size: 20px;
 }
 
-.operators {
+.operadores {
     display: flex;
     justify-content: space-between;
 }
 
-.operators button {
+.operadores button {
     border: 1px solid #bbb;
-    border-radius: 1px;
     width: 100px;
-    text-align: center;
     padding: 20px;
     margin-top: 25px;
-    margin-bottom: 5px;
     background-color: #ddd;
 }
 
@@ -45,21 +41,28 @@ button {
 
 .numbers button {
     border: 1px solid #ddd;
-    border-radius: 1px;
     width: 100px;
-    text-align: center;
     padding: 20px;
     margin-top: 15px;
     background-color: #f9f9f9;
 }
 
-.equal {
-    width: 100%;
-    border: 1px solid #b94444;
-    border-radius: 1px;
-    text-align: center;
+.operadores2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.operadores2 button {
+    border: 1px solid #bbb;
+    width: 100px;
     padding: 20px;
-    margin-top: 25px;
+    margin-top: 15px;
+    background-color: #ddd;
+}
+
+.operadores2 .equal {
+    width: 211px;
+    border: 1px solid #b94444;
     color: #FFF;
     background-color: #fe4d4d;
 }
