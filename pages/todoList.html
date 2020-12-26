@@ -5,10 +5,39 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../styles/todoList.css">
-    <title>Calculadora</title>
+    <title>TodoList</title>
 </head>
 
 <body>
+    <div class="todoList">
+        <header>
+            <div>
+                <h1 id="js_fecha"></h1>
+                <p>Active Task(s)</p>
+            </div>
+
+            <ul>
+                <li>
+                    <a>Incomplete Tasks</a>
+                </li>
+                <li>
+                    <a>Completed Tasks</a>
+                </li>
+            </ul>
+        </header>
+
+        <main>
+            <form action="">
+                <input type="text" class="addTask" id="js_addTask" placeholder="Enter a task..." />
+                <button>Add task</button>
+            </form>
+
+            <ul class="container" id="js_container">
+            </ul>
+        </main>
+    </div>
+
+
 
     <script src="../scripts/todoList.js"></script>
 

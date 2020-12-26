@@ -25,47 +25,47 @@ function main() {
     const igual = document.getElementById('js_igual');
 
     uno.onclick = function() {
-        resultado.textContent = resultado.textContent + "1"
+        return resultado.textContent = resultado.textContent + "1"
     }
 
     dos.onclick = function() {
-        resultado.textContent = resultado.textContent + "2"
+        return resultado.textContent = resultado.textContent + "2"
     }
 
     tres.onclick = function() {
-        resultado.textContent = resultado.textContent + "3"
+        return resultado.textContent = resultado.textContent + "3"
     }
 
     cuatro.onclick = function() {
-        resultado.textContent = resultado.textContent + "4"
+        return resultado.textContent = resultado.textContent + "4"
     }
 
     cinco.onclick = function() {
-        resultado.textContent = resultado.textContent + "5"
+        return resultado.textContent = resultado.textContent + "5"
     }
 
     seis.onclick = function() {
-        resultado.textContent = resultado.textContent + "6"
+        return resultado.textContent = resultado.textContent + "6"
     }
 
     siete.onclick = function() {
-        resultado.textContent = resultado.textContent + "7"
+        return resultado.textContent = resultado.textContent + "7"
     }
 
     ocho.onclick = function() {
-        resultado.textContent = resultado.textContent + "8"
+        return resultado.textContent = resultado.textContent + "8"
     }
 
     nueve.onclick = function() {
-        resultado.textContent = resultado.textContent + "9"
+        return resultado.textContent = resultado.textContent + "9"
     }
 
     cero.onclick = function() {
-        resultado.textContent = resultado.textContent + "0"
+        return resultado.textContent = resultado.textContent + "0"
     }
 
     punto.onclick = function() {
-        resultado.textContent = resultado.textContent + "."
+        return resultado.textContent = resultado.textContent + "."
     }
 
     reset.onclick = function() {
